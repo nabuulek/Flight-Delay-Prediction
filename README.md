@@ -12,7 +12,7 @@ This was undertaken as part of the Zindi Flight Prediction challenge, for the ca
 5. **Feature Engineering:** Process of selecting, modifying, or creating new features that are most relevant to the prediction target.
 6. **Model Selection:** Evaluation of different machine learning algorithms to find the most suitable model for predicting flight delays.
 7. **Model Training:** Detailed explanation of how the model is trained, including the selection of hyperparameters and training techniques.
-8. **Model Evaluation:** Assessment of the model's performance using various metrics such as accuracy, precision, recall, and F1 score.
+8. **Model Evaluation:** Assessment of the model's performance using various metrics such as accuracy, precision, recall, and RMSE score.
 9. **Deployment:** Guidelines on how to deploy the model for real-time predictions, including any required environment setup.
 10. **Conclusion:** Summary of the findings, model performance, and potential areas for future work.
 
@@ -27,7 +27,7 @@ alternatively, this notebook can be run via google colab.
 
 ## Data
 The dataset includes features such as flight date, scheduled departure and arrival times, actual departure and arrival times, airline information, weather conditions, and airport traffic. The target variable is the flight delay status (delayed or on-time). The dataset used was provided by Zindi for the Flight prediction challenge.
-https://zindi.africa/competitions/flight-delay-prediction-challenge
+[https://zindi.africa/competitions/flight-delay-prediction-challenge/data]
 
 ## Technologies Used
 - Python 3.x: Main programming language used for data preprocessing, analysis, and model building.
