@@ -9,6 +9,16 @@ model = joblib.load(model_path)
 # App Title
 st.title('Flight Delay Prediction')
 
+# Explanation of input fields
+st.markdown("""
+- **STATUS**: Flight status.
+    - **ATA**: Actual Time of Arrival
+    - **DEL**: Delayed
+    - **DEP**: Departed
+    - **RTR**: Returned
+    - **SCH**: Scheduled
+""")
+
 # Input Fields
 with st.form("flight_info"):
     st.header("Flight Information")
